@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
 
-  get "/bien" => "pages#bien"
+  get "/bien_vivre" => "pages#bien"
   get "/rendre_la_ville" => "pages#ville"
   get "/deplacer" => "pages#deplacer"
   get "/data" => "pages#data"
@@ -13,6 +13,5 @@ Rails.application.routes.draw do
   get "/data5" => "pages#data5"
   get "/data6" => "pages#data6"
   get "/data7" => "pages#data7"
-
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
