@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
   root to: 'pages#home'
 
-  get "/bien_vivre" => "pages#bien"
+  get "/bien" => "pages#bien"
   get "/rendre_la_ville" => "pages#ville"
   get "/deplacer" => "pages#deplacer"
   get "/data" => "pages#data"
