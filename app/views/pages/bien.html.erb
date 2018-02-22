@@ -1,0 +1,50 @@
+
+<div class="banner bien">
+  <div class="banner-content">
+    <h1>BIEN VIVRE</h1>
+    <h2>Quelques infos </h2>
+  </div>
+</div>
+
+      <%= link_to data_path do %>
+        <div class="product">
+          <div class='product-upvote'>
+            <div class="product-arrow"></div>
+            <div class='product-count'>1</div>
+          </div>
+          <%= image_tag("def.jpg", :class => "product-image hidden-xs") %>
+          <div class='product-body'>
+            <h3>68</h3>
+            <p>Défribrillateurs disponibles dans les rues</p>
+          </div>
+        </div>
+        <% end %>
+
+        <%= link_to data1_path do %>
+        <div class="product">
+          <div class='product-upvote'>
+            <div class="product-arrow"></div>
+            <div class='product-count'>1</div>
+          </div>
+          <%= image_tag("bornewifi", :class => "product-image hidden-xs") %>
+          <div class='product-body'>
+            <h3>22</h3>
+            <p>Bornes de WIFI public</p>
+          </div>
+        </div>
+        <% end %>
+
+        <%= link_to data2_path do %>
+        <div class="product">
+          <div class='product-upvote'>
+            <div class="product-arrow"></div>
+            <div class='product-count'>1</div>
+          </div>
+          <%= image_tag("zea.jpg", :class => "product-image hidden-xs") %>
+          <div class='product-body'>
+            <h3>41</h3>
+            <p>Zones d'activitée économique</p>
+          </div>
+        </div>
+        <% end %>
+
